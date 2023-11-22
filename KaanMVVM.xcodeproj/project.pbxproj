@@ -3,29 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0DF9486F2B0E2E700051164A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9486E2B0E2E700051164A /* AppDelegate.swift */; };
 		0DF948712B0E2E700051164A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF948702B0E2E700051164A /* SceneDelegate.swift */; };
-		0DF948732B0E2E700051164A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF948722B0E2E700051164A /* ViewController.swift */; };
-		0DF948762B0E2E700051164A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF948742B0E2E700051164A /* Main.storyboard */; };
 		0DF948792B0E2E700051164A /* KaanMVVM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DF948772B0E2E700051164A /* KaanMVVM.xcdatamodeld */; };
 		0DF9487B2B0E2E730051164A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9487A2B0E2E730051164A /* Assets.xcassets */; };
 		0DF9487E2B0E2E730051164A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9487C2B0E2E730051164A /* LaunchScreen.storyboard */; };
+		0DF9488C2B0E30C00051164A /* KaanHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9488B2B0E30C00051164A /* KaanHomeController.swift */; };
+		0DF948932B0E3B1B0051164A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0DF948922B0E3B1B0051164A /* SnapKit */; };
+		0DF948952B0E3B1B0051164A /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 0DF948942B0E3B1B0051164A /* SnapKit-Dynamic */; };
+		0DF948982B0E3C560051164A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0DF948972B0E3C560051164A /* Alamofire */; };
+		0DF9489B2B0E3DA30051164A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 0DF9489A2B0E3DA30051164A /* Kingfisher */; };
+		0DF9489D2B0E46B50051164A /* FootBallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9489C2B0E46B50051164A /* FootBallModel.swift */; };
+		0DF9489F2B0E47FF0051164A /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF9489E2B0E47FF0051164A /* ServiceManager.swift */; };
+		0DF948A12B0E4AD10051164A /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF948A02B0E4AD10051164A /* WebService.swift */; };
+		0DF948A42B0E4D2B0051164A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF948A32B0E4D2B0051164A /* Constant.swift */; };
+		0DF948A62B0E4D610051164A /* ServiceContant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF948A52B0E4D610051164A /* ServiceContant.swift */; };
+		0DF948A92B0E57B00051164A /* Helps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF948A82B0E57B00051164A /* Helps.swift */; };
+		0DF948AC2B0E61430051164A /* FootballHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF948AB2B0E61430051164A /* FootballHomeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0DF9486B2B0E2E700051164A /* KaanMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaanMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF9486E2B0E2E700051164A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DF948702B0E2E700051164A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0DF948722B0E2E700051164A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0DF948752B0E2E700051164A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DF948782B0E2E700051164A /* KaanMVVM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KaanMVVM.xcdatamodel; sourceTree = "<group>"; };
 		0DF9487A2B0E2E730051164A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DF9487D2B0E2E730051164A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DF9487F2B0E2E730051164A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DF9488B2B0E30C00051164A /* KaanHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaanHomeController.swift; sourceTree = "<group>"; };
+		0DF9489C2B0E46B50051164A /* FootBallModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootBallModel.swift; sourceTree = "<group>"; };
+		0DF9489E2B0E47FF0051164A /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		0DF948A02B0E4AD10051164A /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		0DF948A32B0E4D2B0051164A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		0DF948A52B0E4D610051164A /* ServiceContant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceContant.swift; sourceTree = "<group>"; };
+		0DF948A82B0E57B00051164A /* Helps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helps.swift; sourceTree = "<group>"; };
+		0DF948AB2B0E61430051164A /* FootballHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballHomeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DF9489B2B0E3DA30051164A /* Kingfisher in Frameworks */,
+				0DF948982B0E3C560051164A /* Alamofire in Frameworks */,
+				0DF948932B0E3B1B0051164A /* SnapKit in Frameworks */,
+				0DF948952B0E3B1B0051164A /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +78,126 @@
 		0DF9486D2B0E2E700051164A /* KaanMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				0DF9486E2B0E2E700051164A /* AppDelegate.swift */,
-				0DF948702B0E2E700051164A /* SceneDelegate.swift */,
-				0DF948722B0E2E700051164A /* ViewController.swift */,
-				0DF948742B0E2E700051164A /* Main.storyboard */,
-				0DF9487A2B0E2E730051164A /* Assets.xcassets */,
-				0DF9487C2B0E2E730051164A /* LaunchScreen.storyboard */,
-				0DF9487F2B0E2E730051164A /* Info.plist */,
+				0DF948A72B0E579F0051164A /* Help */,
+				0DF948A22B0E4D150051164A /* Constant */,
+				0DF948902B0E37A00051164A /* Model */,
+				0DF9488D2B0E37200051164A /* Services */,
+				0DF9488A2B0E2F3D0051164A /* Supp */,
+				0DF948892B0E2F110051164A /* Response */,
+				0DF948862B0E2EC90051164A /* Scene */,
+				0DF948852B0E2EA50051164A /* App */,
 				0DF948772B0E2E700051164A /* KaanMVVM.xcdatamodeld */,
 			);
 			path = KaanMVVM;
+			sourceTree = "<group>";
+		};
+		0DF948852B0E2EA50051164A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9486E2B0E2E700051164A /* AppDelegate.swift */,
+				0DF948702B0E2E700051164A /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0DF948862B0E2EC90051164A /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				0DF948882B0E2EE30051164A /* Details */,
+				0DF948872B0E2ED60051164A /* Home */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		0DF948872B0E2ED60051164A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0DF948AA2B0E60FB0051164A /* FootballHomeCell */,
+				0DF9488B2B0E30C00051164A /* KaanHomeController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0DF948882B0E2EE30051164A /* Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		0DF948892B0E2F110051164A /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9487A2B0E2E730051164A /* Assets.xcassets */,
+				0DF9487C2B0E2E730051164A /* LaunchScreen.storyboard */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		0DF9488A2B0E2F3D0051164A /* Supp */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9487F2B0E2E730051164A /* Info.plist */,
+			);
+			path = Supp;
+			sourceTree = "<group>";
+		};
+		0DF9488D2B0E37200051164A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9488F2B0E37560051164A /* Manager */,
+				0DF9488E2B0E37320051164A /* WebServices */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0DF9488E2B0E37320051164A /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				0DF948A02B0E4AD10051164A /* WebService.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		0DF9488F2B0E37560051164A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9489E2B0E47FF0051164A /* ServiceManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		0DF948902B0E37A00051164A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9489C2B0E46B50051164A /* FootBallModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0DF948A22B0E4D150051164A /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				0DF948A32B0E4D2B0051164A /* Constant.swift */,
+				0DF948A52B0E4D610051164A /* ServiceContant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		0DF948A72B0E579F0051164A /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				0DF948A82B0E57B00051164A /* Helps.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		0DF948AA2B0E60FB0051164A /* FootballHomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				0DF948AB2B0E61430051164A /* FootballHomeCell.swift */,
+			);
+			path = FootballHomeCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +216,12 @@
 			dependencies = (
 			);
 			name = KaanMVVM;
+			packageProductDependencies = (
+				0DF948922B0E3B1B0051164A /* SnapKit */,
+				0DF948942B0E3B1B0051164A /* SnapKit-Dynamic */,
+				0DF948972B0E3C560051164A /* Alamofire */,
+				0DF9489A2B0E3DA30051164A /* Kingfisher */,
+			);
 			productName = KaanMVVM;
 			productReference = 0DF9486B2B0E2E700051164A /* KaanMVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -106,7 +242,7 @@
 				};
 			};
 			buildConfigurationList = 0DF948662B0E2E700051164A /* Build configuration list for PBXProject "KaanMVVM" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -114,6 +250,11 @@
 				Base,
 			);
 			mainGroup = 0DF948622B0E2E700051164A;
+			packageReferences = (
+				0DF948912B0E3B1B0051164A /* XCRemoteSwiftPackageReference "SnapKit" */,
+				0DF948962B0E3C560051164A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				0DF948992B0E3DA30051164A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 0DF9486C2B0E2E700051164A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +271,6 @@
 			files = (
 				0DF9487E2B0E2E730051164A /* LaunchScreen.storyboard in Resources */,
 				0DF9487B2B0E2E730051164A /* Assets.xcassets in Resources */,
-				0DF948762B0E2E700051164A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +281,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DF948732B0E2E700051164A /* ViewController.swift in Sources */,
 				0DF9486F2B0E2E700051164A /* AppDelegate.swift in Sources */,
 				0DF948792B0E2E700051164A /* KaanMVVM.xcdatamodeld in Sources */,
+				0DF948A12B0E4AD10051164A /* WebService.swift in Sources */,
+				0DF948A42B0E4D2B0051164A /* Constant.swift in Sources */,
 				0DF948712B0E2E700051164A /* SceneDelegate.swift in Sources */,
+				0DF948A62B0E4D610051164A /* ServiceContant.swift in Sources */,
+				0DF948AC2B0E61430051164A /* FootballHomeCell.swift in Sources */,
+				0DF948A92B0E57B00051164A /* Helps.swift in Sources */,
+				0DF9488C2B0E30C00051164A /* KaanHomeController.swift in Sources */,
+				0DF9489D2B0E46B50051164A /* FootBallModel.swift in Sources */,
+				0DF9489F2B0E47FF0051164A /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0DF948742B0E2E700051164A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0DF948752B0E2E700051164A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0DF9487C2B0E2E730051164A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -298,12 +437,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9ZB6K2KY9S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KaanMVVM/Info.plist;
+				INFOPLIST_FILE = KaanMVVM/Supp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,12 +465,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9ZB6K2KY9S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KaanMVVM/Info.plist;
+				INFOPLIST_FILE = KaanMVVM/Supp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,6 +506,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0DF948912B0E3B1B0051164A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		0DF948962B0E3C560051164A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		0DF948992B0E3DA30051164A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0DF948922B0E3B1B0051164A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DF948912B0E3B1B0051164A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		0DF948942B0E3B1B0051164A /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DF948912B0E3B1B0051164A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		0DF948972B0E3C560051164A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DF948962B0E3C560051164A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		0DF9489A2B0E3DA30051164A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DF948992B0E3DA30051164A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		0DF948772B0E2E700051164A /* KaanMVVM.xcdatamodeld */ = {
